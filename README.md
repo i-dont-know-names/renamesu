@@ -1,24 +1,40 @@
-# osu!replay username changes but awfully simplified
+# rename! - osu! replay username changer, but awfully simplified
 
-Want to change your username on any osu replay for privacy, or because you accidentally saved it as "guest"? 
+Ever wanted to change the username saved in an osu! replay? Maybe for privacy, or maybe you accidentally saved it as `Guest`?
 
-this is the tool for you! ^_^
+Well, this is the tool for you! ^_^
 
-# Usage:
+## Usage
 
-Requirements: 
-literally just python 3.10 and later lmao
+**Requirements:** Python 3.10 or later. That's literally it lmao.
 
-```python main.py replay.osr <username you want> [output_name.osr]```
+### Getting started
 
-Replay will save to where the replay is, so I really recommend putting the replay where you can easily access it.
+1. Download or clone this repository.
+2. Open Command Prompt, Terminal, Konsole, or whatever command line you prefer.
+3. Navigate to the folder containing `main.py`.
+4. Run the command below:
 
-Example:
+```bash
+python main.py replay.osr username [output_name.osr]
+```
 
-```python main.py "C:\Users\idktestnames\AppData\Roaming\osu!\exports\idknames playing a certain map - by a certain artist (01/01/2026).osr" idontknownames "plswork.osr"```
+- `replay.osr` — the path to the replay you want to edit.
+- `username` — the new username you want saved in the replay.
+- `output_name.osr` — optional; the name or path for the new replay file.
 
-Replay will save to C:\Users\idktestnames\AppData\Roaming\osu!\exports\ as plswork.osr
+### Example
 
-If you don’t specify a replay name, it will save with an "_new" at the end of the filename so it doesn't overwrite the original replay.
+```bash
+python main.py "C:\Users\idktestnames\AppData\Roaming\osu!\exports\idknames playing a certain map - by a certain artist (01-01-2026).osr" idontknownames "plswork.osr"
+```
 
-Any issues? open an issue! I will take some time getting back to you, as I'm just a 16 year old doing this because she's bored.
+This saves the edited replay as `plswork.osr` in the specified output location. If you use just a filename for the output, it will be saved in the current working directory.
+
+If you don't specify an output name, it will add "_new" to the end of the file name to refrain from overwriting the original file  
+
+## Issues or suggestions?
+
+Found a bug, something isn't working, or have an idea to improve the tool? Feel free to [open an issue](../../issues)!
+
+I'll get back to you ASAP!! I'm just a 16-year-old making this because she's bored, after all. :p
