@@ -26,7 +26,7 @@ python main.py replay.osr username [output_name.osr]
 ### Example
 
 ```bash
-python main.py "C:\Users\idktestnames\AppData\Roaming\osu!\exports\idknames playing a certain map - by a certain artist (01-01-2026).osr" idontknownames "plswork.osr"
+python main.py "C:\Users\idktestnames\AppData\Roaming\osu!\exports\idknames-score.osr" idontknownames "plswork.osr"
 ```
 
 This saves the edited replay as `plswork.osr` in the specified output location. If you use just a filename for the output, it will be saved in the current working directory.
