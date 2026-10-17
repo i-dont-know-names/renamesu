@@ -1,6 +1,6 @@
 # rename! - osu! replay username changer, but awfully simplified
 
-Ever wanted to change the username saved in an osu! replay? Maybe for privacy, or maybe you accidentally saved it as `Guest`?
+Ever wanted to change the username saved in an osu! replay? Maybe for privacy, or maybe you accidentally saved it as `Guest` while playing offline?
 
 Well, this is the tool for you! ^_^
 
